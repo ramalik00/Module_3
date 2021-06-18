@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Viaoda+Libre&display=swap');
+body {
+  font-size: 16px;
+  color: #fff;
+  background-image: url(../images/bg.jpeg) ;
+  background-color: aquamarine;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color:lavenderblush;
+  border-radius: 0;
+  border: 0;
+  
+}
+.navbar-brand h1{
+  color:#61122f;
+  text-transform: uppercase;
+  font-size:150%;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px;
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle ,.icon-bar{
+  border:#61122f 1px solid;
+}
+.navbar-header button.navbar-toggle{
+  clear:both;
+}
+
+#nav-list{
+  margin: 10px;
+}
+#nav-list a{
+  text-align: center;
+}
+#nav-list a:hover{
+  background-color:lightgray;
+}
+
+/*Main Content*/
+#main-content h1{
+  color:black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px;
+}
+.name{
+  margin-top: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  color: black;
+  margin-bottom: 0;
+  padding: 5px;
+  font-size: 1.4em ;
+  font-weight: bold;
+  text-align: center;
+}
+section{
+  border: 1px solid black; 
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color:floralwhite;
+      height: auto;
+
+}
+section p{
+  display: block;
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Viaoda Libre', cursive;
+    color: black;
+    font-size: 1.3em;
+}
+
+@media (min-width:1200px){
+  #header-nav{
+  height: 100px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header-nav{
+    height: 100px;
+    } 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  #header-nav{
+    height: 100px;
+    }
+
+}
+@media(max-width:767px){
+  #collapsable-nav{
+    background-color:lightgray;
+  }
+
+}
